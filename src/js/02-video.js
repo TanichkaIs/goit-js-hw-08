@@ -15,7 +15,7 @@ const iframe = document.querySelector('iframe');
                     break;
 
         }
-    });;
+    });
     function playerOn(data) {
         const time = data.seconds;
         localStorage.setItem('videoplayer-current-time', throttle(playerOn,1000))
